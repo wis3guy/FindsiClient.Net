@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("FindsiClient.Net")]
-[assembly: AssemblyDescription("Specialized http client and a set of convinient extensions for communicating with the Findsi API")]
+[assembly: AssemblyDescription("A client that simplifies developing application that log to and consume data from the Findsi API")]
 [assembly: AssemblyCompany("Geoffrey Braaf | WIS3GUY.NET")]
 [assembly: AssemblyProduct("FindsiClient.Net")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]

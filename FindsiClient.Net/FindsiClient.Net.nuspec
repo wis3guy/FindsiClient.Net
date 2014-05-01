@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <copyright>Copyright Geoffrey Braaf 2014</copyright>
-    <tags>Hypermedia Json HAL</tags>
+    <tags>Findsi Hypermedia Json HAL</tags>
   </metadata>
   <files>
     <file src="bin\$configuration$\FindsiClient.Net.pdb" target="lib\net45\" />
