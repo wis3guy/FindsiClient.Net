@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>HalClient.Net</id>
+    <version>1.0.5234.20357</version>
+    <title>HalClient.Net</title>
+    <authors>Geoffrey Braaf | WIS3GUY.NET</authors>
+    <owners>Geoffrey Braaf | WIS3GUY.NET</owners>
+    <licenseUrl>https://github.com/wis3guy/HalClient.Net/blob/master/Licence.md</licenseUrl>
+    <projectUrl>https://github.com/wis3guy/HalClient.Net</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Specialized http client for communicating with API's that support the HAL media type</description>
+    <copyright>Copyright Geoffrey Braaf 2014</copyright>
+    <tags>Hypermedia Json HAL</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.WebApi.Client" version="5.1.1" />
+    </dependencies>
+  </metadata>
+</package>
