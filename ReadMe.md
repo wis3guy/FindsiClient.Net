@@ -4,20 +4,20 @@ FindsiClient.Net
 Specialized http client and a set of convenient extensions for communicating with the Findsi API
 
 Findsi
------------------
-http://www.findsi.com
-http://api.findsi.com/docs
+------
+* [Findsi: find-as-i](http://www.findsi.com "A nextgen recommendation-engine, designed to supersede the 'people who bought this, also bought'-breed")
+* [Findsi API documentation](http://api.findsi.com/docs "Findsi API documentation")
 
-Basic usage
------------
-At application startup (ie. `Main()` or `Application_Start()`) setup the `FindsiHalHttpClientFactory`:
+Usage
+-----
+At application start-up (ie. `Main()` or `Application_Start()`) set up the `FindsiHalHttpClientFactory`:
 
 ```c#
 // Create the default parser
 IHalJsonParser parser = new HalJsonParser();
 
 // Create the settings
-var settings = new FindsiClientSettings {Key = Key, BaseAddress = _apiUri};
+var settings = new FindsiClientSettings {Key = Key, BaseAddress = _APIUri};
 
 // Create the factory
 IHalHttpClientWithRootFactory factory = new FindsiHalHttpClientFactory(parser, settings);
@@ -54,4 +54,4 @@ using (var client = _factory.CreateClientWithRoot())
 
 Work in progress
 ----------------
-Fndsi is currently in beta, as such this library will inevitably change every time the API does.
+Findsi is currently in beta, as such this library will inevitably change every time the API does.
