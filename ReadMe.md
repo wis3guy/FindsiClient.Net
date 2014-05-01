@@ -1,4 +1,4 @@
-HalClient.Net
+FindsiClient.Net
 ==========
 
 Specialized http client and a set of convenient extensions for communicating with the Findsi API
