@@ -31,7 +31,7 @@
             public const string TargetSimilars = Prefix + "target-similars";
             public const string TargetSimilar = Prefix + "similar-target";
             public const string TargetRecommendations = Prefix + "target-recommendations";
-            public const string TargetRecommendation = Prefix + "recommended-actor";
+            public const string TargetRecommendation = Prefix + "recommended-target";
             public const string ActorList = Prefix + "actors";
             public const string ActorDetail = Prefix + "actor";
             public const string ActorTargets = Prefix + "actor-targets";
