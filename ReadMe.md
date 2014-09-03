@@ -6,7 +6,7 @@ Specialized http client and a set of convenient extensions for communicating wit
 Findsi
 ------
 * [Findsi: find-as-i](http://www.findsi.com "A nextgen recommendation-engine, designed to supersede the 'people who bought this, also bought'-breed")
-* [Findsi API documentation](http://api.findsi.com/docs "Findsi API documentation")
+* [Findsi API documentation](http://www.findsi.com/docs "Findsi API documentation")
 
 Usage
 -----
