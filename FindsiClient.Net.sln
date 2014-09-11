@@ -3,16 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindsiClient.Net", "FindsiClient.Net.csproj", "{1C30B31B-7795-4BEC-BB72-397738AC5C9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindsiClient.Net", "FindsiClient.Net\FindsiClient.Net.csproj", "{1C30B31B-7795-4BEC-BB72-397738AC5C9B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B6621D25-698E-4375-83E0-6DCC907FE3B7}"
 	ProjectSection(SolutionItems) = preProject
-		..\.nuget\NuGet.Config = ..\.nuget\NuGet.Config
-		..\.nuget\NuGet.exe = ..\.nuget\NuGet.exe
-		..\.nuget\NuGet.targets = ..\.nuget\NuGet.targets
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindsiClient.Net.Tests", "..\FindsiClient.Net.Tests\FindsiClient.Net.Tests.csproj", "{33DE83FC-FA1C-4C9C-9988-3AB4AA327A99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindsiClient.Net.Tests", "FindsiClient.Net.Tests\FindsiClient.Net.Tests.csproj", "{33DE83FC-FA1C-4C9C-9988-3AB4AA327A99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

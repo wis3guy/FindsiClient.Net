@@ -53,7 +53,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActorsExtensions.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Client\FindsiClientSettings.cs" />
     <Compile Include="Client\FindsiHalHttpClientFactory.cs" />
     <Compile Include="Client\IFindsiClientSettings.cs" />
