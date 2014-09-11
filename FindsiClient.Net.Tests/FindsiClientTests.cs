@@ -12,7 +12,7 @@ namespace Findsi
     {
         private const string Key = "API_KEY_GOES_HERE"; 
         
-        private readonly Uri _apiUri = new Uri("FINDSI_API_URI_GOES_HERE");
+        private readonly Uri _apiUri = new Uri("https://api.findsi.com");
         private readonly IHalHttpClientWithRootFactory _factory;
 
         public FindsiClientTests()
@@ -30,7 +30,7 @@ namespace Findsi
                 Classification = "user",
                 Resources = new[]
                 {
-                    new Resource {Rel = "email", Href = "geoffrey@braaf.nl"}
+                    new Resource {Rel = "email", Href = "me@you.it"}
                 }
             };
 
